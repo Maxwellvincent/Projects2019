@@ -1,0 +1,94 @@
+body{
+    background-color: navy;
+    border-style: outset;
+    max-width: 100%;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 0px;
+    margin: 0%;
+    padding-top: 20px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    list-style-type: none;
+    background-color: gray;
+    margin: 10px;
+    padding:1%;
+    opacity: .8;
+    overflow: hidden;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    padding: 100px;
+    width: 100%; 
+}
+nav a:hover {
+    background-color: darkgray;
+    width: 100%;
+}
+p {
+    width: 100%;
+}
+aside {
+    float: left;
+    width: 50%;
+    padding-top: 0%;
+}
+.aside2 {
+    float: right;
+    padding-top: 0%;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid red;
+    color: white;
+}
+th,td {
+    padding: 8px;
+    width: 40%;
+    text-align: center;
+}
+.body2 {
+    background: url("https://thumbs.worthpoint.com/zoom/images2/1/0217/10/england-patriots-lombardi-super-bowl_1_4025f5d7f1271d65f783d0b8a97d80de.jpg") no-repeat center fixed;
+    background-size: cover;
+    padding-top: 20px;
+}
+#body3 {
+    background: url("https://s1.ticketm.net/tm/en-ca/dbimages/312757a.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#div3 {
+    width: 100%;
+}
+.div2 {
+    width: 100%
+}
+
+table {
+    width: 100%;
+}
+
+form {
+    color: white;
+}
+section {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 250%;
+}
+footer {
+    text-align: center;
+}
+.pats {
+    display:flex;
+    flex-direction: row;
+}

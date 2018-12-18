@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --dark: #333;
+}
+
+body, html {
+    height: 100%;
+    margin: 10px;
+    background: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.container #mainheader {
+    background-image: url(http://ibizaglobal.tv/wp-content/uploads/2018/07/jan-traid-375105-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    display: block;
+    background-position: center;
+}
+#mainheader {
+    color: white;
+    font-size: 30px;
+    padding: 60px;
+    text-align: justify;
+    text-align: bottom;
+}
+/* Navigation */
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4,1fr);
+}
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: whitesmoke;
+}
+.main-nav a:hover {
+    background: lightgray;
+}
+/* Main Content container */
+.container {
+    display: grid;
+}
+
+.bg-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: auto;
+}
+.img1 {
+    color: black;
+}
+
+.img2 {
+   color: white;
+   /* text-align: justify; */
+}
+
+.img3 {
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/* Images used */
+.img1 { background-image: url("https://buceoestepona.com/wp-content/uploads/2018/03/dive-master.jpg");}
+.img2 { background-image: url("https://www2.padi.com/blog/wp-content/uploads/2017/10/Technical-Diving-side-mount.jpg");}
+.img3 { background-image: url("http://californiadiver.com/wp-content/uploads/2016/07/Underwater-chainsaw-750x420.jpg");}
